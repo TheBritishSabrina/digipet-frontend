@@ -1,7 +1,13 @@
-import { greet } from "./utils/greet";
+import Digipet from "./components/Digipet";
+import Header from "./components/Header";
 
 function App(): JSX.Element {
-  return <h1>{greet("World")}</h1>;
+  return (
+    <main>
+      <Header />
+      <Digipet />
+    </main>
+  );
 }
 
 export default App;
