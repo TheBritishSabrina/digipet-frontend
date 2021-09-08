@@ -1,3 +1,8 @@
 export default function Header(): JSX.Element {
-  return <div></div>;
+  return (
+    <div>
+      <h1>Digipet App</h1>
+      <hr />
+    </div>
+  );
 }
