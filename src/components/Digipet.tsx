@@ -37,7 +37,10 @@ export default function Digipet(): JSX.Element {
           {message ? (
             <p>{message}</p>
           ) : (
-            <p>You have no digipet yet. Click below to hatch one.</p>
+            <p>
+              You have no digipet yet. Click below to hatch one. Note: some
+              messages may be outdated.
+            </p>
           )}
           <button onClick={() => handleClick("/digipet/hatch")}>Hatch</button>
         </>
