@@ -8,7 +8,7 @@ export default function Digipet(): JSX.Element {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch(`http://localhost:4000${currentEndpoint}`)
+    fetch(`https://polar-bastion-22048.herokuapp.com${currentEndpoint}`)
       .then((res) => res.json())
       .then((res) => {
         setDigipet(res.digipet);
